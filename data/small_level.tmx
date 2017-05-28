@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="21" tileheight="21" nextobjectid="58">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="21" tileheight="21" nextobjectid="71">
  <tileset firstgid="1" name="spritesheet" tilewidth="21" tileheight="21" spacing="2" tilecount="900">
   <image source="../images/spritesheet.png" width="692" height="692"/>
   <tile id="13">
@@ -51,6 +51,12 @@
    <properties>
     <property name="Class" value="VerticalEnemy"/>
     <property name="sheet" value="ghost"/>
+   </properties>
+  </tile>
+  <tile id="475">
+   <properties>
+    <property name="Class" value="GroundEnemy"/>
+    <property name="sheet" value="bug"/>
    </properties>
   </tile>
  </tileset>
@@ -2315,7 +2321,7 @@
    <tile gid="192"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="191"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -3095,5 +3101,13 @@
   <object id="53" gid="172" x="585.193" y="270.715" width="21" height="21"/>
   <object id="54" gid="172" x="723.817" y="100.932" width="21" height="21"/>
   <object id="57" gid="172" x="610.628" y="102.84" width="21" height="21"/>
+  <object id="58" gid="476" x="288.232" y="267.535" width="21" height="21"/>
+  <object id="60" gid="476" x="965.455" y="394.713" width="21" height="21"/>
+  <object id="61" gid="476" x="833.19" y="104.112" width="21" height="21"/>
+  <object id="63" gid="476" x="505.071" y="187.413" width="21" height="21"/>
+  <object id="65" gid="476" x="564.208" y="228.746" width="21" height="21"/>
+  <object id="68" gid="447" x="927.387" y="336.505" width="21" height="21"/>
+  <object id="69" gid="447" x="865.62" y="181.054" width="21" height="21"/>
+  <object id="70" gid="447" x="628.433" y="194.408" width="21" height="21"/>
  </objectgroup>
 </map>

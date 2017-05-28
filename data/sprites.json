@@ -2,6 +2,7 @@
 	"blue-alien":{"sx":460,"sy":116	,"cols":2,"tilew":20,"frames":1,"tileh":19},	
 	"player":{"sx":462,"sy":1,"cols":1,"tilew":17,"frames":1,"tileh":21},
 	"ghost":{"sx":600,"sy":320,"cols":1,"tilew":22,"frames":1,"tileh":21},
-	"pink-alien":{"sx":483,"sy":116	,"cols":2,"tilew":20,"frames":1,"tileh":19}
+	"pink-alien":{"sx":483,"sy":116	,"cols":2,"tilew":20,"frames":1,"tileh":19},
+	"bug":{"sx":600,"sy":345,"cols":1,"tilew":22,"frames":1,"tileh":21}
 }
 	
