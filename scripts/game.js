@@ -18,8 +18,8 @@ window.addEventListener("load",function() {
     });
 
     //load assets
-    Q.loadTMX("small_level.tmx, sprites.json, sprites.png", function() {       
-      Q.compileSheets("sprites.png","sprites.json");     
+    Q.loadTMX("small_level.tmx, sprites.json, spritesheet.png", function() {       
+      Q.compileSheets("spritesheet.png","sprites.json");     
       Q.stageScene("level");
     });
     
