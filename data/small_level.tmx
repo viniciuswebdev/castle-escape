@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="21" tileheight="21" nextobjectid="45">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="21" tileheight="21" nextobjectid="58">
  <tileset firstgid="1" name="spritesheet" tilewidth="21" tileheight="21" spacing="2" tilecount="900">
   <image source="../images/spritesheet.png" width="692" height="692"/>
   <tile id="13">
@@ -18,6 +18,12 @@
     <property name="Class" value="LetalObject"/>
    </properties>
   </tile>
+  <tile id="113">
+   <properties>
+    <property name="Class" value="GroundEnemy"/>
+    <property name="sheet" value="golden"/>
+   </properties>
+  </tile>
   <tile id="169">
    <properties>
     <property name="" value=""/>
@@ -31,8 +37,8 @@
   </tile>
   <tile id="171">
    <properties>
-    <property name="Class" value="VerticalEnemy"/>
-    <property name="sheet" value="blue-alien"/>
+    <property name="Class" value="GroundEnemy"/>
+    <property name="sheet" value="pink-alien"/>
    </properties>
   </tile>
   <tile id="191">
@@ -2117,7 +2123,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="197"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2167,7 +2173,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="227"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2217,7 +2223,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="227"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2267,7 +2273,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="227"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2316,8 +2322,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="288"/>
+   <tile gid="227"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2362,12 +2368,12 @@
    <tile gid="304"/>
    <tile gid="304"/>
    <tile gid="304"/>
-   <tile gid="304"/>
-   <tile gid="304"/>
-   <tile gid="304"/>
-   <tile gid="304"/>
-   <tile gid="304"/>
-   <tile gid="304"/>
+   <tile gid="124"/>
+   <tile gid="124"/>
+   <tile gid="124"/>
+   <tile gid="124"/>
+   <tile gid="124"/>
+   <tile gid="124"/>
    <tile gid="153"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -3081,5 +3087,13 @@
   <object id="42" gid="447" x="948.286" y="216.028" width="21" height="21"/>
   <object id="43" gid="447" x="547.039" y="52.6046" width="21" height="21"/>
   <object id="44" gid="447" x="501.255" y="116.829" width="21" height="21"/>
+  <object id="47" gid="172" x="761.97" y="357.196" width="21" height="21"/>
+  <object id="49" gid="172" x="518.424" y="376.908" width="21" height="21"/>
+  <object id="50" gid="172" x="784.226" y="354.652" width="21" height="21"/>
+  <object id="51" gid="172" x="793.764" y="271.987" width="21" height="21"/>
+  <object id="52" gid="172" x="828.103" y="231.925" width="21" height="21"/>
+  <object id="53" gid="172" x="585.193" y="270.715" width="21" height="21"/>
+  <object id="54" gid="172" x="723.817" y="100.932" width="21" height="21"/>
+  <object id="57" gid="172" x="610.628" y="102.84" width="21" height="21"/>
  </objectgroup>
 </map>

@@ -8,6 +8,9 @@ Quintus.ActionPlatformerPlayer = function(Q) {
         speed: 100,
       });
       this.add("2d, platformerControls");               
-    }    
+    },
+    damage: function() {
+      Q.stageScene("level");    
+    }   
   });
 };

@@ -5,7 +5,7 @@ Quintus.ActionPlatformerEnemy = function(Q) {
       var entity = this.entity;
       entity.on("bump.left,bump.right,bump.bottom",function(collision) {
         if(collision.obj.isA("Player")) {                        
-          console.log('you died!');
+          collision.obj.damage();
         }
       });
       entity.on("bump.top",function(collision) {
@@ -64,6 +64,7 @@ Quintus.ActionPlatformerEnemy = function(Q) {
       this.p.initialVy = this.p.vy;
       this.p.vyDirection = this.p.vy/Math.abs(this.p.vy);
 
+      var that = this;
       this.on("bump.top, bump.bottom",function(collision) {
         that.p.vy = -Math.abs(that.p.initialVy) * that.p.vyDirection;
         that.p.vyDirection = that.p.vy/Math.abs(that.p.vy);
