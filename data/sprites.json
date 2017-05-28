@@ -1,6 +1,6 @@
 {
 	"blue-alien":{"sx":460,"sy":116	,"cols":2,"tilew":20,"frames":1,"tileh":19},	
 	"player":{"sx":462,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":21},
-	"fall-box":{"sx":253,"sy":138,"cols":1,"tilew":22,"frames":1,"tileh":21}
+	"ghost":{"sx":600,"sy":320,"cols":1,"tilew":22,"frames":1,"tileh":21}
 }
 	
