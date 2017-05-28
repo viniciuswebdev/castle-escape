@@ -82,7 +82,4 @@ Quintus.ActionPlatformerEnemy = function(Q) {
       } 
     }
   });
-
-  
-  
 };
